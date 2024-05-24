@@ -47,21 +47,30 @@
         }
 
 
+        /* Styles for the menu */
         .menu {
-            width: 80%;
+            background-color: #333; /* Dark background color */
+            color: white; /* Font color */
+            padding: 20px; /* Add some padding */
+            text-align: center; /* Center align the menu items */
+        }
 
-            background: rgba(222, 184, 135, 0.2); /* Semi-transparent brown */
-            border: 1px solid rgba(255, 255, 255, 0.4); /* White border with some transparency */
-            border-radius: 15px;
-            backdrop-filter: blur(10px); /* Apply blur to the area behind this element */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add some shadow */
+        .menu ul {
+            list-style-type: none; /* Remove bullet points from the list */
+        }
 
-            /*background-color: burlywood;*/
-            margin-left: auto;
-            margin-right: auto;
-            padding: 20px;
-            max-width: 500px;
-            max-height: 250px;
+        .menu ul li {
+            display: inline-block; /* Display menu items horizontally */
+            margin-right: 20px; /* Add some spacing between menu items */
+        }
+
+        .menu ul li:last-child {
+            margin-right: 0; /* Remove margin for the last menu item */
+        }
+
+        .menu a {
+            text-decoration: none; /* Remove underline from links */
+            color: white; /* Font color for links */
         }
 
         img {
