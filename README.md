@@ -1,9 +1,9 @@
 # Cafe Menu Frontend Design
 
 This repository contains a basic front-end design for a coffee shop menu, utilizing HTML and CSS. The design includes sections for coffee and desserts, along with a footer containing contact information and a link to the main website.
-
-## Table of Contents
 <ul>
+## Table of Contents
+
 <li>Overview</li>
 <li>Features</li>
 <li>Installation</li>
