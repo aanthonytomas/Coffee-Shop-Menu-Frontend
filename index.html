@@ -31,7 +31,14 @@
 
         .menu {
             width: 80%;
-            background-color: burlywood;
+
+            background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+            border: 1px solid rgba(255, 255, 255, 0.4); /* White border with some transparency */
+            border-radius: 15px;
+            backdrop-filter: blur(10px); /* Apply blur to the area behind this element */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add some shadow */
+
+            /*background-color: burlywood;*/
             margin-left: auto;
             margin-right: auto;
             padding: 20px;
