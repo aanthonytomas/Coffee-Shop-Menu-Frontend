@@ -8,8 +8,6 @@ This repository contains a basic front-end design for a coffee shop menu, utiliz
 <li>Features</li>
 <li>Installation</li>
 <li>Usage</li>
-<li>Contributing</li>
-<li>License</li>
 </ol>
 
 ## Overview
